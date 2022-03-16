@@ -4,6 +4,9 @@ import Languages from "./Languages";
 import Header from "./Header";
 import SchoolSubject from "./SchoolSubject";
 import ReadMoreBtn from "./ReadMoreBtn";
+import MoreInfo from "./MoreInfo";
+import ShowGames from "./ShowGames";
+import Games from "./Games";
 
 class App extends Component {
     render () {
@@ -16,6 +19,9 @@ class App extends Component {
                 <Languages />
                 <SchoolSubject />
                 <ReadMoreBtn />
+                <MoreInfo></MoreInfo>
+                <ShowGames></ShowGames>
+                <Games></Games>
             </div>
         )
     }
